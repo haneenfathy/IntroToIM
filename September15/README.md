@@ -1,3 +1,4 @@
-# IntroToIM
+# Assignment 1
 
-## Repository to contain work for Intro to IM
+## Screenshot of portrait
+![My Portrait](portrait.png)
