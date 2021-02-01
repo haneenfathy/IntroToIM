@@ -1,5 +1,12 @@
 # Assignment 2
 
+# Screenshot of Sketch
+
+
+![Alt Text](art.png)
+
+![Alt Text](art.gif)
+
 ## Process
 
 My process for this assignment was to create something that was fun and aesthetically pleasing. I wanted to include input from the user, even if it's just mouse clicks, so everytime you rin the program you are generating your own artwork. Since I had previously worked with classes, I created a particle class to control the movement/size/color of my shapes. I saved all the shapes in an array called particles. In my main draw function, I loop through every circle in the particles array and call the update and display method from my class to draw them. From there, there was a lot of trial and error to get them to look interesting.
