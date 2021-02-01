@@ -2,8 +2,9 @@
 
 # Screenshot of Sketch
 
-
 ![Alt Text](art.png)
+
+# Gif of Sketch
 
 ![Alt Text](art.gif)
 
