@@ -49,3 +49,6 @@ void draw(){
 void mousePressed() {
   particles=(Particle[]) append(particles,new Particle()); //append new circle on mouse click
 }
+void keyPressed(){
+  save("art.png");
+}
