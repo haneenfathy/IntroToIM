@@ -14,7 +14,7 @@ class Particle { //create a particle class (each circle is a particle) to contro
   }
 
   void update() {
-    if (size >= 700) {  //if size reaches 700 then start over so it keeps looping
+    if (size >= 850) {  //if size reaches 700 then start over so it keeps looping
       size = 0;
     } else {
       size += velocity; //size increases as velocity increases (basically animates the circle)
