@@ -36,7 +36,7 @@ class Particle { //create a particle class )the particles will be dropped in the
     acceleration.mult(0); //reset acceleration
   }
   void applyForce(PVector force) {
-    acceleration.add(force); //apply accelerationt to particles
+    acceleration.add(force); //apply he force of the flow field to the particles
   }
 
   void follow(PVector [] fields) { //function to follow the flow field by applying the forces to the particles
