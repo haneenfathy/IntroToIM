@@ -4,11 +4,9 @@
 
 In this project, I wanted to expand on the class I created last time but add the use of perlin noise. I watched Daniel Shiffman's tutorial on flow field and found it really interesting. I decided to create a sketch where you can play around with flow fields and explore how they are created. The sketch is controlled by sliders that change some values so you can create art as you go.
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" >
-    <source src="data/video.mp4" type="video/mp4">
-  </video>
-</figure>
+<p align="center">
+  <img src="data/vid.gif" />
+</p>
 
 <p align="center">
   <img src="data/ex1.png" />
@@ -22,7 +20,7 @@ In this project, I wanted to expand on the class I created last time but add the
 
 ## Flow Fields
 
-![Alt](/images/field.png)
+![Alt](/images/field.jpg)
 
 Flow fields are based around a grid of vectors with each vector pointing in a different direction. The grid should be stored as a 2D array of floating point numbers. Each item in the array holds an angle and represents a point in the grid. 
 
