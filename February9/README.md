@@ -6,15 +6,15 @@ In this project, I wanted to expand on the class I created last time but add the
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true" >
-    <source src="/data/video.mp4" type="video/mp4">
+    <source src="data/video.mp4" type="video/mp4">
   </video>
 </figure>
 
 <p align="center">
-  <img src="/data/ex1.png" />
+  <img src="data/ex1.png" />
 </p>
 <p align="center">
-  <img src="/data/ex3.png" />
+  <img src="data/ex3.png" />
 </p>
 <p align="center">
   <img src="data/ex2.png" />
