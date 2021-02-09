@@ -8,7 +8,7 @@ In this project, I wanted to expand on the class I created last time but add the
   <img src="data/vid.gif" />
 </p>
 
-<p align="center">
+<p align="center" width="50%" height="50%">
   <img src="data/ex1.png" />
 </p>
 <p align="center">
@@ -20,7 +20,7 @@ In this project, I wanted to expand on the class I created last time but add the
 
 ## Flow Fields
 
-![Alt](/images/field.jpg)
+![Alt](data/field.jpg)
 
 Flow fields are based around a grid of vectors with each vector pointing in a different direction. The grid should be stored as a 2D array of floating point numbers. Each item in the array holds an angle and represents a point in the grid. 
 
