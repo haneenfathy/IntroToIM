@@ -49,4 +49,4 @@ I used the GUI library ControlP5 to create sliders to control different values i
 
 ## Challenges
 
-I had quite a few challenges working with this assignment. The main one being navigating Java after using Python and Javascript exclusively for a year. This slowed down my process. Other than that, I had a few out of index error that I think have to do with the way variables are initalized in Java or possibly the scope? I am still not sure but it took me a bit to figure out. In one instance, I even put an if statement to ensure that the array isn'y accessed out of bounds even though I still don't know why the variables were going out of bound.
+The main challenge was navigating Java after using Python and Javascript exclusively for a year. This slowed down my process. Other than that, I had a few out of index error that I think have to do with the way variables are initalized in Java or possibly the scope? I am still not sure but it took me a bit to figure out. In one instance, I even put an if statement to ensure that the array isn'y accessed out of bounds even though I still don't know why the variables were going out of bound.
