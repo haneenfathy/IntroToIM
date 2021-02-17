@@ -16,6 +16,8 @@ int intervals=width/len;
 Table table;
 int[] positions = new int[0];
 String[] names = new String[0];
+color c = color(random(255), random(255), random(255));
+
 void setup() {
   background(255);
   size(800, 700);
@@ -32,21 +34,23 @@ void setup() {
     println(id + " (" + country + ") has a score of " + score);
     names=append(names, country );
   }
+  
+}
+
+void draw() {
+  background(255);
   int xpos=10;
   for (int i = 0; i < table.getRowCount()/2; i++) {
     print(table.getRowCount()/2);
     TableRow row = table.getRow(i);
     float score=row.getFloat("Score");
     float rectHeight = map(score, 2, 8, 0, height);
-    color c = color(random(255), random(255), random(255));
+    
     fill(c);
     rect(xpos, 0, 10, rectHeight);
     positions=append(positions, xpos);
     xpos=xpos+10;
   }
-}
-
-void draw() {
 
   //int curr=0;
   for (int i = 0; i < table.getRowCount()/2; i++) {
