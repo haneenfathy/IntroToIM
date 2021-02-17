@@ -22,6 +22,6 @@ I faced a lot of challenges creating this assignment. Firstly, having to start f
 In terms of the program itself, I faced a lot of problems with displaying the text. I wanted the page to display the text and then call background each time in the draw fucntion but that meant drawing over the graph since they were being drawn in the setup once. When I draw the graph in the draw function, I am unable to use the random fucntion without it looping over and over again.
 I evetually stopped using the random function and added the graph to the draw function. The problem with this is that it's probably too fast? I am not exactly sure but when I hover the text appears sometimes and other times it doesn't. There is also some overlapping which doesn't make sense.
 
-![1](1.jpg)
-![2](2.jpg)
-![3](3.jpg)
+![1](1.png)
+![2](2.png)
+![3](3.png)
