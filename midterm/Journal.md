@@ -23,6 +23,8 @@ Created a class for the object and called it user and added an image instead of 
 
 Found a sketch that had a similar idea so learned how to create the infinite scroll and then wrote the majority of the rest of the sketch. I created two classes for obstacles and user and created functins to run the game. I also created the home screen (very basic for now).
 
+[Gif](sample.gif)
+
 ## Steps to come
 
 1. My first step is writing a function that keeps track of the letters collected and to see if they form a word.
