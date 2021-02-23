@@ -23,7 +23,7 @@ Created a class for the object and called it user and added an image instead of 
 
 Found a sketch that had a similar idea so learned how to create the infinite scroll and then wrote the majority of the rest of the sketch. I created two classes for obstacles and user and created functins to run the game. I also created the home screen (very basic for now).
 
-[](sample.gif)
+![](sample.gif)
 
 ## Steps to come
 
