@@ -9,7 +9,7 @@ My final design was very similar. I ended up using an image of a paper that the 
 In each level, a word appears on the screen in Arabic. The objective of the user is to collect the letters that form the English translation of the word to test their knowledge of Arabic vocab.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TNp3gXrII1E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![](http://img.youtube.com/vi/TNp3gXrII1E/0.jpg)](http://www.youtube.com/watch?v=TNp3gXrII1E "Video Example")
 
 ### Game Instructions
 
