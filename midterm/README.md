@@ -20,7 +20,7 @@ On the top left corner of the screen, you have an Arabic word that you're suppos
 
 ![Home](images/home.png)
 
-![Game](images/1.jpg)
+![Game](images/1.png)
 
 ![Game](images/2.png)
 
