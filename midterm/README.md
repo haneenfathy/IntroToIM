@@ -8,6 +8,13 @@ My idea for my midterm was to create a language learning game. Initially, I want
 My final design was very similar. I ended up using an image of a paper that the user moves left and right, following the mouse and collects the letters that correspond to the word on the screen.
 In each level, a word appears on the screen in Arabic. The objective of the user is to collect the letters that form the English translation of the word to test their knowledge of Arabic vocab.
 
+<iframe width="560" height="315"
+src="https://www.youtube.com/watch?v=TNp3gXrII1E" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+
 ### Game Instructions
 
 When you first launch the game you are faced with a home screen. Upon clicking start, the game starts. To control the game you move your mouse left and right to move the piece of paper.
