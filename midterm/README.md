@@ -16,6 +16,15 @@ In each level, a word appears on the screen in Arabic. The objective of the user
 When you first launch the game you are faced with a home screen. Upon clicking start, the game starts. To control the game you move your mouse left and right to move the piece of paper.
 On the top left corner of the screen, you have an Arabic word that you're supposed to figure out the meaning of. To test your knowledge, you move the paper to collect the letters that make up the word. Once you're done the level increases and another word is show. Once you're done with all the words the game restarts. You can also click r in the middle of the game to restart.
 
+![Instructions](images/instructions.png)
+
+![Home](images/home.png)
+
+![Game](images/1.jpg)
+
+![Game](images/2.png)
+
+
 ### Design Choices
 
 A lot of my design choices in this game were based on finding good images for the letter. I wanted the theme to be consistent so when I found letters that were also of the same style, I based the rest of my project on that. The color theme of the project is neon pink. I looked for fonts that were different so they were aesthetically more pleasing. I found a font that looked like grafitti and used that for my home screen but used a more basic font inside the game so it would not distract from the game itself.
