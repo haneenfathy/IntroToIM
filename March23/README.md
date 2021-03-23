@@ -6,6 +6,10 @@ My idea was to use 3 LEDs and 3 buttons to create a puzzle where you are suppose
 The game isn't reeally about the colors but it's about paying attention to how the colors change. The buttons don't correspond to any colors but rather to a number according to the order they're placed on the breadboard.
 
 ![Example](drawing.png)
-## Circuit
+## Challenges
 
-I faced a lot of problems trying to arrange my circuit 
+I faced a lot of problems trying to arrange my circuit and connect all the different components to the board. I was confused whether I had to connect my buttons to my LEDs or simply connect all my components to the board and then control them through the code. I am still not sure if the connection between the LEDs and the buttons is necessary. I tried to draw a schematic to show my understaing so far. Since I also wasn't able to test my code against my circuit, I was trying to rely on my understanding only. I put the circuit together and removed it so many times bit I wasn't sure what I was doing correctly or not. In terms of the code, it was relatively easy.
+
+## Things I Learned
+
+In addition to the digitalwrite and read functions, I was trying to figure out how to record the orders the buttons were pressed in. I learned that there is no way to do that in Arduino and I opted to use the millis function to record the time. I then compared the time that each button was pressed to see the order they were pressed in.
