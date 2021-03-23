@@ -6,7 +6,9 @@ My idea was to use 3 LEDs and 3 buttons to create a puzzle where you are suppose
 The game isn't reeally about the colors but it's about paying attention to how the colors change. The buttons don't correspond to any colors but rather to a number according to the order they're placed on the breadboard.
 
 ![Example](drawing.png)
+## Schematic
 
+![Example](schematic.png)
 ## Pictures of my circuit
 ![Example](step1.png)
 ![Example](step2.png)
