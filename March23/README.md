@@ -10,7 +10,9 @@ The game isn't reeally about the colors but it's about paying attention to how t
 
 ![Example](schematic.png)
 ## Pictures of my circuit
+In the beginning, I tested to see if my LEDs are working.
 ![Example](step1.png)
+After adding my buttons.
 ![Example](step2.png)
 ![Example](step3.png)
 
