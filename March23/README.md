@@ -6,6 +6,12 @@ My idea was to use 3 LEDs and 3 buttons to create a puzzle where you are suppose
 The game isn't reeally about the colors but it's about paying attention to how the colors change. The buttons don't correspond to any colors but rather to a number according to the order they're placed on the breadboard.
 
 ![Example](drawing.png)
+
+## Pictures of my circuit
+![Example](step1.jpg)
+![Example](step2.jpg)
+![Example](step3.jpg)
+
 ## Challenges
 
 I faced a lot of problems trying to arrange my circuit and connect all the different components to the board. I was confused whether I had to connect my buttons to my LEDs or simply connect all my components to the board and then control them through the code. I am still not sure if the connection between the LEDs and the buttons is necessary. I tried to draw a schematic to show my understaing so far. Since I also wasn't able to test my code against my circuit, I was trying to rely on my understanding only. I put the circuit together and removed it so many times bit I wasn't sure what I was doing correctly or not. In terms of the code, it was relatively easy.
