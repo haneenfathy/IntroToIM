@@ -8,9 +8,9 @@ The game isn't reeally about the colors but it's about paying attention to how t
 ![Example](drawing.png)
 
 ## Pictures of my circuit
-![Example](step1.jpg)
-![Example](step2.jpg)
-![Example](step3.jpg)
+![Example](step1.png)
+![Example](step2.png)
+![Example](step3.png)
 
 ## Challenges
 
