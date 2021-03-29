@@ -7,7 +7,11 @@ For this assignment, I decided to use the light sensor and a switch to control 3
 
 ## Schematic
 
+![](images/schematic.png)
 
 ## Circuit
-
+![](images/1.png)
+![](images/2.png)
 I connected the analog light sensor as well as the 2 switches first and made sure they are correctly reading inputs. I then connected the 2 LEDs and made sure they are correctly connected. I tried to build the circuit in a way where it was easy to access the switches. 
+
+[![Project Video](https://img.youtube.com/vi/xhTeAuuj-7I/0.jpg)](https://youtu.be/xhTeAuuj-7I)
