@@ -7,7 +7,7 @@ For this assignment, I decided to use the light sensor and a switch to control 3
 
 ## Schematic
 
-![](images/schematic.png)
+![](schematic.png)
 
 ## Circuit
 ![](images/1.png)
