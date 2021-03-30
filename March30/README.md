@@ -21,6 +21,8 @@ I connected the analog light sensor as well as the 2 switches first and made sur
 
 My biggest challenge was finding a way to to show the dimming effect on each individual light before it switches to the other one. I was sure that my code was correct because it worked when I gave it a range of my own. For some reason, it swtiched so fast the dimming effect wasn't noticeable. I finally realized that the analog values of the light sensor changed so fast and so frequently (because I was simply putting my finger over it) that the effect wasn't noticeable, but theoretically it would work if there is a gradual change.
 
+I also struggles with building a circuit in a way where it was more organized. It got messy quickly. I tried to have everything on the same side but I ran out of space.
+
 ## Things I Learned
 
 I learned how to debug my arduino code better. I also think it's important to check that each component is working on its own first so you don't spend a lot of time thinking the error is in the code when it's actually because you wired one of the components wrong. Always check each part of the code alone and then build on that.
