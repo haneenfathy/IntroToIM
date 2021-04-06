@@ -15,7 +15,7 @@ For this assignment, I decided to use the light sensor and a switch to control 3
 I connected the analog light sensor as well as the 2 switches first and made sure they are correctly reading inputs. I then connected the 2 LEDs and made sure they are correctly connected. I tried to build the circuit in a way where it was easy to access the switches but it was hard because the the input and output where on different sides and I wasn't able to put them on the same side. 
 
 ### Project Video
-[![Project Video](https://img.youtube.com/vi/MXmzRa8oEho/0.jpg)](https://youtu.be/MXmzRa8oEho)
+[![Project Video](https://img.youtube.com/vi/xhTeAuuj-7I/0.jpg)](https://youtu.be/xhTeAuuj-7I)
 
 ## Challenges
 
