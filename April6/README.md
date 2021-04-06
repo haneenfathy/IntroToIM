@@ -8,9 +8,10 @@ For this project, I decided to use the distance sensor to play notes. I chose a 
 
 [![Project Video](https://img.youtube.com/vi/MXmzRa8oEho/0.jpg)](https://youtu.be/MXmzRa8oEho)
 ## Schematic
-
+![](images/schematic.png)
 ## Circuit
-
+![](images/circuit1.png)
+![](images/circuit2.png)
 
 ## Process
 
