@@ -5,7 +5,7 @@ int melody[] = {
   NOTE_E5, NOTE_E5, NOTE_GS5, NOTE_GS5, NOTE_A5, NOTE_B5,
   NOTE_A5, NOTE_A5, NOTE_A5, NOTE_E5, NOTE_D5, NOTE_FS5,
   NOTE_FS5, NOTE_FS5, NOTE_E5, NOTE_E5, NOTE_FS5, NOTE_E5
-};
+}; //array of notes
 
 
 const int led_1 = 13;
@@ -21,7 +21,7 @@ const int buzzer = 8;
 
 long duration;
 int distance;
-int durations[] = {
+int durations[] = { //array of different durations that correspond to the notes
   8, 8, 8, 4, 4, 4,
   4, 5, 8, 8, 8, 8,
   8, 8, 8, 4, 4, 4,
@@ -40,7 +40,7 @@ void setup() {
   pinMode(button, INPUT);
 
   pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
-  pinMode(echoPin, INPUT);
+  pinMode(echoPin, INPUT);// Sets the echoPin as an Input
   pinMode(buzzer, OUTPUT);
 
   Serial.begin(9600);
@@ -50,12 +50,12 @@ void setup() {
 
 void loop() {
 
-  // Clears the trigPin
+  //turn all LEDs off
   digitalWrite(led_1, LOW);
   digitalWrite(led_2, LOW);
   digitalWrite(led_3, LOW);
   digitalWrite(led_4, LOW);
-
+  // Clears the trigPin
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
   // Sets the trigPin on HIGH state for 10 micro seconds
@@ -76,15 +76,16 @@ void loop() {
 
   // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
   if (buttonState == HIGH) {
-    // turn LED on:
+    // pause the tone
     noTone(buzzer);
   }
   else {
+    //play the tone from the array
     int duration_tone = 1000 / durations[y];
     tone(buzzer, melody[y], duration_tone);
     delay(1);
 
-    digitalWrite(leds[z], HIGH);
+    digitalWrite(leds[z], HIGH); //turn on the corresponding LED
     delay(2);
 
   }
