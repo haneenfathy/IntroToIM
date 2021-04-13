@@ -13,9 +13,9 @@ Even though I wasn't able to get this to work, I learned a lot about the handsha
 
 ## Circuit
 
-
+![](circuit.png =250x)
 ## Schematic
-
+![](schematic.png =250x)
 ## Video
 
 ## Challenges
