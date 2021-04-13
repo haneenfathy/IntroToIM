@@ -25,3 +25,7 @@ Even though I wasn't able to get this to work, I learned a lot about the handsha
 
 Since my processing code was similar to things we did before and I found a lot of help online, I didn't face a lot of challenges working with it. I think I made some mistakes when I was trying to edit the writing / reading to the port but they helped me understand much more deeply.
 Another thing I wanted to try but wasn't able to was using the potentiometer as a joystick controller kind of thing. I was trying to map the values to position but it wasn't working like I exprcted it too so I went with the switches.
+
+## Things I learned
+
+Don't be afraid to change your idea if things aren't going your way!
