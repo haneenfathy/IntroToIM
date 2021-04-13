@@ -1,3 +1,4 @@
+// http://programmingjustforfun.blogspot.com/2015/11/7-paddle-and-bouncing-ball.html
 import processing.serial.*; //import the Serial library
 Serial myPort;  //the Serial port object
 
@@ -20,8 +21,8 @@ void setup() {
 // Variables to keep track of position and speed of ball
 int x = 0;
 int y = 100;
-int x_speed = 5;
-int y_speed = 5;
+int x_speed = 3;
+int y_speed = 3;
 // Variables to keep track of paddle
 int x_paddle = 250, y_paddle = 370;
 int paddle_width_half = 40;
@@ -76,11 +77,11 @@ void draw() {
   // Display score
   display_score();
   
-  //if (y>height) {
-  //  textSize(40);
-  //  textAlign(CENTER);
-  //  text("Game over", 250, 150);
-  //}
+  if (y>height) {
+    textSize(40);
+    textAlign(CENTER);
+    text("Game over", 250, 150);
+  }
 }
 
 void serialEvent( Serial myPort) {
