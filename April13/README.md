@@ -13,9 +13,12 @@ Even though I wasn't able to get this to work, I learned a lot about the handsha
 
 ## Circuit
 
-![](circuit.png =250x)
+<img src="circuit.png" alt="drawing" width="200"/>
+
 ## Schematic
-![](schematic.png =250x)
+
+<img src="schematic.png" alt="drawing" width="200"/>
+
 ## Video
 
 ## Challenges
