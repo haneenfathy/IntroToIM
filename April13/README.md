@@ -21,6 +21,8 @@ Even though I wasn't able to get this to work, I learned a lot about the handsha
 
 ## Video
 
+<img src="side.gif" alt="drawing" width="500"/>
+
 ## Challenges
 
 Since my processing code was similar to things we did before and I found a lot of help online, I didn't face a lot of challenges working with it. I think I made some mistakes when I was trying to edit the writing / reading to the port but they helped me understand much more deeply.
