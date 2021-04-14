@@ -1,7 +1,9 @@
 // http://programmingjustforfun.blogspot.com/2015/11/7-paddle-and-bouncing-ball.html
+
 import processing.serial.*; //import the Serial library
 Serial myPort;  //the Serial port object
-
+int width = 700;
+int height = 700;
 void setup() {
   // 500 pixels wide, 400 pixel height
   // This call will set system variables (width, height)
@@ -29,8 +31,8 @@ int paddle_width_half = 40;
 // score keeping
 int score = 0;
 
-void update() {
-  x = x + x_speed;
+void update() { //update the position of the ball here
+  x = x + x_speed; 
   y = y + y_speed;
   if (y<0)
     y_speed = -y_speed;
@@ -38,12 +40,12 @@ void update() {
     x_speed = -x_speed;
 }
 
-void check_edges() {
+void check_edges() { //check if the ball hits the wall
   if (x_paddle>width) x_paddle = width;
   if (x_paddle<0) x_paddle = 0;
 }
 
-void check_paddle() {
+void check_paddle() { //check if the ball hits the paddle
   if ((x_paddle-paddle_width_half)<x && (x_paddle+paddle_width_half)>x && 
     (y_paddle-10)<y && (y_paddle)>y) {
     // ball is hitting paddle rectangle, reverse y_speed
@@ -52,7 +54,7 @@ void check_paddle() {
   }
 }
 
-void display_score() {
+void display_score() { //displayy the score on the 
   textSize(16);
   textAlign(RIGHT);
   text("Score", 80, 390);
@@ -67,9 +69,9 @@ void draw() {
   // Check if ball collides with paddle
   check_paddle();
   // Clear screen to black
-  background(0);
+  background(255);
   // Set fill color to white
-  fill(255);
+  fill(0);
   // Draw a circle at position x,y, 10 pixels large
   ellipse(x, y, 10, 10);
   // draw paddle
@@ -77,7 +79,7 @@ void draw() {
   // Display score
   display_score();
   
-  if (y>height) {
+  if (y>height) { //if ball falls then its g ameover
     textSize(40);
     textAlign(CENTER);
     text("Game over", 250, 150);
@@ -96,11 +98,11 @@ void serialEvent( Serial myPort) {
     println(val);
     int value=int(val);
     if (value==1) {
-      x_paddle = x_paddle + 4;
+      x_paddle = x_paddle + 4; //move to the right
     }
     if (value==2) {
-      x_paddle = x_paddle - 4;
+      x_paddle = x_paddle - 4; //move to the left
     }
   }
-  myPort.write("\n");
+  myPort.write("\n"); //handshake
 }
