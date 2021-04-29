@@ -13,7 +13,7 @@ The project is made up of 2 games. Each game uses the sensors to create a differ
 
 [![Game 1](https://img.youtube.com/vi/5QQpoS2_hdg/0.jpg)](https://www.youtube.com/watch?v=5QQpoS2_hdg)
 
-![art](art.jpeg)
+![art](images/art.jpeg)
 
 Game 1 is inspired by pour art or pour painting. 
 
