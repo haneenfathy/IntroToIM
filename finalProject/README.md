@@ -4,17 +4,26 @@
 
 My final project idea is to build a processing sketch that creates a art of some sort using input from the Arduino board. This will be a project that will allow the user to interact with project and create their unique artwork. I chose this project because I wanted to take advantage of the arduino sensors to their full capacity and make use of how unreliable the values can be if you're creating a set thing. In this project, you can mess around with the sensors and inputs as much as you want to see how interesting it will turn out to be. I titled this project how to break your arduino because the crazier your sensor values get, the more interesting the art becomes.
 
+
 ## Structure
 
 The project is made up of 2 games. Each game uses the sensors to create a different type of artwork.
 
 ### Game 1
 
+[![Game 1](https://img.youtube.com/vi/5QQpoS2_hdg/0.jpg)](https://www.youtube.com/watch?v=5QQpoS2_hdg)
+
+![Drag Racing](Dragster.jpg)
+
 Game 1 is inspired by pour art or pour painting. 
 
 In this type of work, acrylic paint is poured all over the sketch in an effor to create interesting looking patterns. The first step was to research and look for ways to implement that in my processing sketch. I looked all over the internet and managed to find a sketch on openprocessing that I based this game off of. I altered the sketch to match the pour art theme. The game consists of three different functions. One function controls the bruch stroke, and the two other control the paint splatter. 
 
 ### Game 2
+
+[![Game 2](https://img.youtube.com/vi/vgzu1cLNwTI/0.jpg)](https://www.youtube.com/watch?v=vgzu1cLNwTI)
+
+![Drag Racing](Dragster.jpg)
 
 Game 2 uses circles and their strokes to create intersting looking overlapping shapes. The shapes overlap and as you click the mouse they increase.
 
