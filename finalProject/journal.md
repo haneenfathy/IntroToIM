@@ -17,3 +17,25 @@ My arduino code will configure all of the different inputs and then send over th
 ## Processing
 
 Most of the heavy lifting will be in the processing sketch. For now, my plan is to create a particle system that changes accordingly to the arduino input. Initially, I wanted to create like a pottery type thing that changes with the input but I think the particle system will be more creative. Depending on how difficult this will turn out to be I will decide how my virtual sculpture will look like. What I know for sure is that I want it to be very creative so it can respond to the changes in the arduino input. 
+
+
+### April 15
+
+Wrote my final proposal: creating a virtual sculpture with your Arduino.
+
+Started researching options on how to create the sculptures with processing.
+
+### April 17
+
+Started implementing the virtual sculpture on processing. Faced a lot of technical difficulties.
+### April 19
+
+### April 20
+
+### April 22
+
+### April 25
+
+### April 27
+
+### April 28
