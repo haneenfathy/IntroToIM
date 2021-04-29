@@ -13,7 +13,7 @@ The project is made up of 2 games. Each game uses the sensors to create a differ
 
 [![Game 1](https://img.youtube.com/vi/5QQpoS2_hdg/0.jpg)](https://www.youtube.com/watch?v=5QQpoS2_hdg)
 
-![Drag Racing](Dragster.jpg)
+![art](art.jpeg)
 
 Game 1 is inspired by pour art or pour painting. 
 
@@ -23,7 +23,6 @@ In this type of work, acrylic paint is poured all over the sketch in an effor to
 
 [![Game 2](https://img.youtube.com/vi/vgzu1cLNwTI/0.jpg)](https://www.youtube.com/watch?v=vgzu1cLNwTI)
 
-![Drag Racing](Dragster.jpg)
 
 Game 2 uses circles and their strokes to create intersting looking overlapping shapes. The shapes overlap and as you click the mouse they increase.
 
@@ -39,6 +38,15 @@ Game 2 uses circles and their strokes to create intersting looking overlapping s
 ## Controls
 
 A unique thing about the project is that I don't specify anywhere which sensor controls what. To run the sketches you have to use the mouse and then sensors at the same time. The whole point was to see how people can experiment with the arduino and try to compe up with interesting works of art. It is part of the experience to try and figure what each sensor controls on the sketch.
+
+## Schematic
+
+![schematic](images/schematic.png)
+
+## Circuit
+
+![circuit](images/circuit1.png)
+![circuit](images/circuit2.png)
 
 ## Challenges
 
