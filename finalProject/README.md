@@ -50,9 +50,12 @@ A unique thing about the project is that I don't specify anywhere which sensor c
 
 ## Challenges
 
-My main challenges in this project were related more to the processing side than to the arduino side. I had organizational problems in my processing code because I had everyhting in the same file. Looking back, I would definitely try to put each game in its own processing file. 
+My main challenges in this project were related more to the processing side than to the arduino side. I had organizational problems in my processing code because I had everyhting in the same file. Looking back, I would definitely try to put each game in its own processing file. I had some problems with choosing the right values that I wanted to map my sensor values into.  
 
 ## Interesting takes
 
-I was very happy with how much I improved in building the circuits compared to the first time.
+I was very happy with how much I improved in building the circuits compared to the first time. 
+I really enjoyed not having too worry about accuracy in this project, however it was actually harder than other projects because you are mostly heading in a direction you don't know.
+Another thing was that the sketch that based my project off was built in javascript so I had to go in and make it work for Java which was interesting because they differ a lot in the way they use variables, arrays, etc..
+
 
