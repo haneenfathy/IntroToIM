@@ -52,3 +52,7 @@ A unique thing about the project is that I don't specify anywhere which sensor c
 
 My main challenges in this project were related more to the processing side than to the arduino side. I had organizational problems in my processing code because I had everyhting in the same file. Looking back, I would definitely try to put each game in its own processing file. 
 
+## Interesting takes
+
+I was very happy with how much I improved in building the circuits compared to the first time.
+
