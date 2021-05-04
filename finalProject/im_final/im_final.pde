@@ -86,17 +86,17 @@ void setup () {
   font = createFont("fonts/Amfallen.ttf", 45);
 }
 
-void drizzle() {
-  float s = global_2+30/dist(brush.px, brush.py, brush.x, brush.y);
+void paint_drizzle() {
+  float s = global_2+30/dist(brush.px, brush.py, brush.x, brush.y); //vary the strokeweight based on the sensor value and the position
   s=min(15, s);
   strokeWeight(s);
   stroke(0);
 
 
-  line(brush.px, brush.py, brush.x, brush.y);
+  line(brush.px, brush.py, brush.x, brush.y); //draw the brush following the mouse
   stroke(255);
 
-  line(width-brush.px, height-brush.py, width-brush.x, height-brush.y);
+  line(width-brush.px, height-brush.py, width-brush.x, height-brush.y); //draw the opposing brush in the other direction
 }
 
 void menu() {
@@ -125,7 +125,7 @@ void game1() {
   brush.x+=(mouseX+(0.5*global_4)-brush.x)/12;
   brush.y+=(mouseY-brush.y)/12;
   if (frameCount>40) {
-    drizzle();
+    paint_drizzle();
   }
   brush.px=brush.x;
   brush.py=brush.y;
@@ -167,54 +167,45 @@ void draw() {
       
     }
   }
-  //if(global_2==1){
-
-  //  game1=false;
-  //  game2=false;
-  //  menu=true;
-  //  restart=true;
-  //  global_2=0;
-
-  //}
 }
 
 void mouseMoved() {
 
   if (game1) {
     if (frameCount%7==0) {
-      splatter(mouseX, mouseY);
-      splatter(width-global_4, height-global_1);
-      stipple(global_4, global_1);
-      stipple(width-mouseX, height-mouseY);
+      paint_splatter(mouseX, mouseY);
+      paint_splatter(width-global_4, height-global_1);
+      stopping(global_4, global_1);
+      stopping(width-mouseX, height-mouseY);
     }
   }
 }
 
-void splatter(int bx, int by) {
-  color c = colors[floor(random(colors.length))];
-  int curr_x=mouseX;
-  int curr_y=mouseY;
-  bx += random(-15, 15);
-  by += random(-15, 15);
-  int mx = 10*(mouseX-curr_x-250);
+void paint_splatter(int bx, int by) { //function to create paint aplatter across sketch
+  color c = colors[floor(random(colors.length))]; //choose the color from the colors array
+  int curr_x=mouseX; //get the current x position
+  int curr_y=mouseY; //get the current y position
+  bx += random(-15, 15); //choose a random x position to draw the paint splatter
+  by += random(-15, 15); //choose a random y position to draw the paint splatter
+  int mx = 10*(mouseX-curr_x-250); 
   int my = 10*(mouseY-curr_y-250);
   for (int i=0; i<80; i++) {
     seed+=.01;
-    float x = bx+mx*(0.5-noise(seed+i));
+    float x = bx+mx*(0.5-noise(seed+i)); //use noise to distribute the splatter
     float y = by+my*(0.5-noise(seed+2*i));
-    float s = 150/dist(bx, by, x, y);
+    float s = 150/dist(bx, by, x, y); //get the size of the paint splatter
     if (s>20) s=20;
     float a = 255-s*5;
     noStroke();
 
     fill(c, a);
     ellipse(x, y, s, s);
-    seed+=.03;
+    seed+=.03; //increment the seed to get sizes that vary by the noise
   }
 }
-void stipple(float bx, float by) {
+void stopping(float bx, float by) { //making spaces between the paint splatters
   noStroke();
-  float radius = random(1, 12);
+  float radius = random(1, 12); //get the random number that will be the size of the circle that creates the space
   ellipse(bx+random(-30, 30), by+random(30, -30), radius, radius);
   radius = random(3, 12);
   ellipse(bx+random(-30, 30), by+random(30, -30), radius, radius);
@@ -263,14 +254,9 @@ void mousePressed() {
     menu=false;
     more=true;
   }
-  //if (button3) {
-  //  game1=false;
-  //  game2=false;
-  //  menu=true;
-  //}
 }
 
-void serialEvent(Serial myPort) {
+void serialEvent(Serial myPort) { //read all the sesor values from the arduino board
   String s=myPort.readStringUntil('\n');
   s=trim(s);
   if (s!=null) {
@@ -283,5 +269,5 @@ void serialEvent(Serial myPort) {
       global_4=(int)map(values[3], 0, 10, 0, width);
     }
   }
-  myPort.write("\n");
+  myPort.write("\n"); //preform the handshaking
 }

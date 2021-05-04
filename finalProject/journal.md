@@ -28,14 +28,30 @@ Started researching options on how to create the sculptures with processing.
 ### April 17
 
 Started implementing the virtual sculpture on processing. Faced a lot of technical difficulties.
+
 ### April 19
+
+Continued implementing the virtual sculptires by creating shapes that are altered by the sensors. Researched ways of doing things differently as they are not very visually pleasing.
 
 ### April 20
 
+Changed my idea and started doing flow fields that are controlled by the sensor values.
+
 ### April 22
+
+Found several sketches online that can be adapted into my code. Started trying to create something that looks like the pour art videos.
+
+Built a small sketch inspired by pour art videos and another sketch that uses circle to create overlapping shaoes in interesting ways.
 
 ### April 25
 
+Finished the handshaking process after realizing I had some bugs (I probably accidentaly changed something along the way)
+
 ### April 27
 
+I struggled a lot today finding ways to use the sensor values most interestingly with my sketch. I spent most of the day experimenting to find ways I can have the sensor values affect the sketch. I found a coyple of ways but I am still undecided between them.
+
+
 ### April 28
+
+Implemented the things I decided in yesterday. I only had a few things left today so I created the homepage but unfortunately didn't have time to make it as nice looking as I wanted. I also finalized the code. I had some problems where when I start playing one game the other strats and vice versa. This took most of time today but I managed to fix it by having a restart boolean variable that restarted everything between the games.

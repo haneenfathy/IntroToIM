@@ -50,12 +50,14 @@ A unique thing about the project is that I don't specify anywhere which sensor c
 
 ## Challenges
 
-My main challenges in this project were related more to the processing side than to the arduino side. I had organizational problems in my processing code because I had everyhting in the same file. Looking back, I would definitely try to put each game in its own processing file. I had some problems with choosing the right values that I wanted to map my sensor values into.  
+My main challenges in this project were related more to the processing side than to the arduino side. I had organizational problems in my processing code because I had everyhting in the same file. Looking back, I would definitely try to put each game in its own processing file.  I changed my idea a lot, which is something that I struglled with most of the semester. Unlike most people, I think my challenge is that I quit too fast and don't stick with original ideas, I quickly look for something else instead of asking for help. This posed very big challenges for me this time as I found myself running out of time toward the end. However, big lesson learned for next time.
+
+There weren't any significant challenges faced with the arduino except one bug I had with handshaking were I wasn't sending anything back from the processing, but having done this mistake before in class, I quickly realized it.
+
+On the processing end, most of my mistakes were due to being too hasty with the planning fo the code. In my computer science projects, I usually give a significant portion of time to plan the code, at least in my head before, however, I think because I am usually excited to see results with processing I jump right in. I believe I would benefit more with giving more time to plan the code.
 
 ## Interesting takes
 
-I was very happy with how much I improved in building the circuits compared to the first time. 
-I really enjoyed not having too worry about accuracy in this project, however it was actually harder than other projects because you are mostly heading in a direction you don't know.
-Another thing was that the sketch that based my project off was built in javascript so I had to go in and make it work for Java which was interesting because they differ a lot in the way they use variables, arrays, etc..
-
+I was very happy with how much I improved in building the circuits compared to the first time. Coding in Java has become significantly easier.
+I also noticed how a lot of the creative process is based on recycling and upgrading ideas, whether yours or others. I put too much pressure on myself in the beginning to come up with something that is completely unique which brought back a lot the conversations we had in class on the creative process and what creativity is.
 
